@@ -12,7 +12,7 @@ void setup() {
   pinMode(buzzerPin, OUTPUT);
   pinMode(holePin, INPUT_PULLUP);
   
-  attachInterrupt(digitalPinToInterrupt(triggerPin), product_ISR, FALLING); // A termék lézer pinjére beálít egy megszakítást (lefutó él)
+  attachInterrupt(digitalPinToInterrupt(triggerPin), product_ISR, FALLING); // A termék lézer pinjére beállít egy megszakítást (lefutó él)
 }
 
 void loop() {
